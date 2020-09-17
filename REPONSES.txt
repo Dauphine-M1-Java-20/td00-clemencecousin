@@ -1,0 +1,78 @@
+COUSIN Clemence
+TD Maven
+Exercice 1
+
+Question 4
+Version de Maven utilisée : 3.6.3
+
+Question 5
+Le groupID est un identifiant (unique) qui permet de savoir qui est à l'origine du projet.
+L'archetypeID est un identifiant (unique) qui va permettre d'identifier le projet au sein du groupe (un même groupe pouvant avoir plusieurs projets en cours).
+
+Question 6
+Trois sous-dossiers sont crées dans le dossiers target : classes, generated-sources et maven-status. Le dossier classes contient les fichiers .class,
+les fichiers exécutables.
+
+Question 7
+Le fichier responsable se trouve dans C:\javaavance\td00\src\main\java\fr\dauphine\ja\cousinclemence\td00
+
+Question 8
+Un classpath permet au compilateur ou à la javamachine de savoir où elle peut trouver les fichiers exécutables nécessaires au bon fonctionnement du programme.
+
+Question 13
+Cette propriété permet de spécifier la version de java à utiliser lors de l'exécution du programme. On y mettra 1.8 comme valeur.
+
+Exercice 2
+
+Question 1
+La première commande affiche Bonjour! et la deuxième affiche une erreur "no main manifest attribute, in target/td00-1.0-SNAPSHOT.jar" car on ne précise pas
+le chemin pour trouver l'exécutable.
+
+Exercice 3
+
+Question 3
+Cela affiche System.out.println();
+
+Question 4
+Cela crée le bloc qui override la méthode toString().
+
+Question 5
+Cela crée le bloc pour la méthode main.
+
+Question 6
+Lorsque l'on tape get puis Ctrl + espace, cela crée le bloc pour la méthode getToto(), un getter pour obtenir une copie de la variable toto créée.
+Lorsque l'on tape set puis Ctrl + espace, cela crée le bloc pour la méthode setToto(), un setter pour attribuer une valeur à l'attribut toto.
+
+Question 7
+Cela permet de renommer la classe ou la variable sélectionnée.
+
+Question 8
+Cela affiche la documentation de l'objet String à l'intérieur des fichiers sources.
+
+TD GIT
+
+Exercice 1
+
+Question 5
+Cela affiche le nombre de différence (et l'endroit où il y a eu des modifications) par rapport aux derniers fichiers commit.
+
+Exercice 2
+
+Question 3
+On voit que le fichier sur le dépôt en ligne et sur le dépôt en local sont alignés sur le schéma.
+
+Question 5
+On voit que l'on a une erreur qui s'affiche car des changements n'ont pas été commit.
+
+Question 6
+
+Il contient le fichier avant les modifications faites en local.
+
+Question 7
+Il y aurait eu un conflit à résoudre en local avant de faire un nouveau push. 
+
+
+
+
+
+
