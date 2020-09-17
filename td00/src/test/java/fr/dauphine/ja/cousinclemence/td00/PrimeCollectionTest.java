@@ -4,31 +4,26 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-/**
- * Unit test for simple App.
- */
 public class PrimeCollectionTest 
     extends TestCase
 {
+	PrimeCollection p = new PrimeCollection();
  
      public void testPrimeCollection()
     {
         assertTrue(true);
     }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( PrimeCollectionTest.class );
+     
+    public void testZeroIsPrime() {
+      	assertTrue(p.isPrime(0));
+    }
+    
+    public void testTwoIsPrime() {
+    	assertTrue(p.isPrime(2));
+    }
+    
+    public void testNineIsPrime() {
+    	assertFalse(p.isPrime(9));
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
 }

@@ -17,12 +17,19 @@ public class PrimeCollection
 		}
 	}
 	
-	private boolean isPrime(int p) {
+	public void addNumber(int a) {
+		this.numbers.add(a);
+	}
+	
+	boolean isPrime(int p) {
 		if(Math.sqrt(p) <= 1) {
 			return true;
 		}
+		else if(p == 2) {
+			return true;
+		}
 		boolean indicator = true;
-		for(int i = 2; i < Math.sqrt(p)+1;i++) {
+		for(double i = 2; i < Math.sqrt(p)+1;i++) {
 			if(p%i == 0) {
 				indicator = false;
 				break;
@@ -43,7 +50,7 @@ public class PrimeCollection
     public static void main( String[] args )
     {
         PrimeCollection p = new PrimeCollection();
-        p.initRandom(100, 2000);
+        p.initRandom(100, 1000);
         p.printPrimes();
     }
 }
