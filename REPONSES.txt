@@ -71,7 +71,12 @@ Il contient le fichier avant les modifications faites en local.
 Question 7
 Il y aurait eu un conflit à résoudre en local avant de faire un nouveau push. 
 
+Exercice 3
 
+Question 2
+Une barre s'affiche sur le côté montrant que tous les tests sont passés avec succès.
+En changeant un true en false dans assertTrue() les tests unitaires ne passent plus. La méthode assertTrue() vérifie
+que le paramètre qui lui ai passé est true.
 
 
 

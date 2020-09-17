@@ -7,17 +7,13 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class PrimeCollectionTest 
     extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
+ 
+     public void testPrimeCollection()
     {
-        super( testName );
+        assertTrue(true);
     }
 
     /**
@@ -25,7 +21,7 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( PrimeCollectionTest.class );
     }
 
     /**
